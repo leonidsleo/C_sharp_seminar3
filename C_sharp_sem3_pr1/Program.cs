@@ -114,3 +114,56 @@
 
 // A (3,6); B (2,1) -> 5,09 
 // A (7,-5); B (1,-1) -> 7,21
+
+// Console.WriteLine("Найти расстояние между 2-мя точками по координатам");
+// Console.WriteLine();
+// Console.Write("Введите x1 = ");
+// double x1 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите y1 = ");
+// double y1 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите x2 = ");
+// double x2 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите y2 = ");
+// double y2 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine();
+// Console.WriteLine($"Координаты точки А = ({x1}; {y1});");
+// Console.WriteLine($"Координаты точки В = ({x2}; {y2});");
+// Console.WriteLine();
+// double a = (Math.Pow((x2 - x1), 2)) + Math.Pow((y2 - y1), 2);
+// double b = Math.Sqrt(a);
+// Console.WriteLine($"Раастояние между точками = {b}!");
+// Console.Write("Stop");
+
+// Напишите программу, которая принимает на 
+// вход число (N) и выдаёт таблицу квадратов чисел 
+// от 1 до N.
+// 5 -> 1, 4, 9, 16, 25.
+// 2 -> 1,4
+
+// Console.WriteLine("Найти квадраты всех чисел от числа a до числа n");
+// Console.WriteLine();
+// Console.Write("Введите число a = ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите число n = ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine();
+// int c = a;
+
+// if (a > n)
+// {
+//     Console.WriteLine("Число a должно быть меньше n");
+// }
+
+
+// if (a < n)
+// {
+//     Console.Write("Квадраты всех чисел от a до n = ");
+//     while (a <= n)
+//     {
+//         c = a * a;
+//         a = a + 1; 
+//         Console.Write(c +", ");
+//     }
+// }
+// Console.WriteLine();
+// Console.Write("Stop");
