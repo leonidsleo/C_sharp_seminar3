@@ -1,7 +1,5 @@
 ﻿// Семинар 3. Домашнее задание. Задача 23.
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-// 3 -> 1, 8, 27
-// 5 -> 1, 8, 27, 64, 125
 
 Console.WriteLine("Найти кубы всех чисел от числа a до числа n!");
 Console.WriteLine();
@@ -10,11 +8,10 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число n = ");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
-//int c = a;
 
 if (a > n)
 {
-    Console.WriteLine("Число a должно быть меньше n");
+    Console.WriteLine("Число a должно быть меньше n. Повторите ввод!");
 }
 if (a < n)
 {
